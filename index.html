@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/tablet.css" media="(min-width: 930px)" />
   </head>
   <body>
     <header>
@@ -38,7 +39,9 @@
         </div>
         <section class="main-exchange__tables">
           <div class="main-exchange__table-coin">
-            <p class="table-coin--title">Monedas</p>
+            <p class="table-coin--title main-exchange__tables--title">
+              Monedas
+            </p>
             <div class="table-coin--container">
               <table>
                 <tr>
@@ -76,7 +79,9 @@
           </div>
 
           <div class="main-exchange__table-commision">
-            <p class="table-commision--title">Comisiones</p>
+            <p class="table-commision--title main-exchange__tables--title">
+              Comisiones
+            </p>
             <div class="table-commision--container">
               <table>
                 <tr>
@@ -150,10 +155,12 @@
           </article>
         </section>
       </section>
+
       <section class="bitcoin-img-container">
         <h2>Conócelo hoy.</h2>
       </section>
-      <section id="plans" class="main-plans-container">
+
+      <section class="main-plans-container">
         <div class="plans--title">
           <h2>Escoge el plan que mejor se ajuste a ti.</h2>
           <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
@@ -170,7 +177,7 @@
             </div>
           </article>
 
-          <article class="plans-container--card">
+          <article id="plans" class="plans-container--card">
             <p class="plan-card--recommended">Recomendado</p>
             <div class="plan-anual--card">
               <h3 class="plan-card--title">Pago Anual</h3>
